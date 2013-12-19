@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(239,205,118);
+}
+
+
+/** Grid
+-----------------------------------------
+-- Disposition des éléments de la page --
+-----------------------------------------
+*/
+.wrapper{
+  width:30em;
+  margin: 0 auto;
+  /*background-color: red;*/
+}
+.post > div{}
+
+/* All Smartphones in portrait and landscape ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  body{background-color: yellowgreen;}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  body{background-color: #278FEB;}
+}
