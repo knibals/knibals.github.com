@@ -1,3 +1,7 @@
-name: Lone
+name    : Why the licky stiff??
+timezone: Africa/Dakar
+encoding: utf-8
 markdown: redcarpet
+twitter : knibals
+github  : knibals
 pygments: true
